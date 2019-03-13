@@ -19,18 +19,19 @@ body {
 h1 {
     color: rgb(40, 184, 40);
     font-size: 40px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
 }
 
 h2 {
     color: rgb(63, 109, 63);
-    margin-bottom: 10px;
+    margin: 20px 0 20px 0;
 }
 
 p {
     font-size: 16px;
     text-align: justify;
     color: rgb(60, 105, 60);
+    margin: 20px 0 20px 0;
 }
 
 .main-text {
@@ -44,6 +45,8 @@ p {
 
 #author-text {
     font-size: 22px;
+    float: left;
+    margin: 40px auto auto 10px;
 }
 
 .html5-logo {
@@ -60,6 +63,7 @@ p {
     width: 75%;
     float:left;
     padding-right: 30px;
+    position: relative;
 }
 
 .other-posts {
@@ -73,4 +77,27 @@ p {
     margin-top: 20px;
     padding-top: 20px;
     border-top: 1px solid gray;
+}
+
+.other {
+    margin-bottom: 30px;
+}
+
+.author-box img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+
+.blog-post img {
+    height: 150px;
+    width: auto;
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 60px 30px 0 0;
 }
