@@ -59,7 +59,6 @@ p {
 }
 
 .blog-post {
-    /* background-color: #bac0bd; */
     width: 75%;
     float:left;
     padding-right: 30px;
@@ -67,13 +66,11 @@ p {
 }
 
 .other-posts {
-    /* background-color: #909b96; */
     width: 25%;
     float:left;
 }
 
 .author-box {
-    /* background-color: #97aca2; */
     margin-top: 20px;
     padding-top: 20px;
     border-top: 1px solid gray;
